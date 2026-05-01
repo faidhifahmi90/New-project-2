@@ -1,0 +1,1036 @@
+{
+  "schema": "quran-letter-graph.github-corpus.v1",
+  "source": "https://github.com/sarfraznawaz2005/quran-json/tree/master/surah",
+  "apiUrl": "https://api.github.com/repos/sarfraznawaz2005/quran-json/contents/surah?ref=master",
+  "branch": "master",
+  "pulledAt": "2026-05-01T08:23:57.323Z",
+  "count": 114,
+  "files": [
+    {
+      "name": "surah_1.json",
+      "number": 1,
+      "sha": "ae10e84018204f0c7caba52d71ea936b37ba68c7",
+      "size": 966,
+      "path": "/corpus/surah_1.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_1.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_1.json"
+    },
+    {
+      "name": "surah_2.json",
+      "number": 2,
+      "sha": "7741aba315b6e2eb36bf8b6ef181ba54374f9f55",
+      "size": 111713,
+      "path": "/corpus/surah_2.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_2.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_2.json"
+    },
+    {
+      "name": "surah_3.json",
+      "number": 3,
+      "sha": "235003b6f9d83ce56211266885efd697162d4f0a",
+      "size": 64537,
+      "path": "/corpus/surah_3.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_3.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_3.json"
+    },
+    {
+      "name": "surah_4.json",
+      "number": 4,
+      "sha": "50a20ee0d2329006977304abb597abdb6983c070",
+      "size": 68996,
+      "path": "/corpus/surah_4.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_4.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_4.json"
+    },
+    {
+      "name": "surah_5.json",
+      "number": 5,
+      "sha": "5188f7fe1dd3438bda5ab4d15f2b033f833226fa",
+      "size": 51474,
+      "path": "/corpus/surah_5.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_5.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_5.json"
+    },
+    {
+      "name": "surah_6.json",
+      "number": 6,
+      "sha": "0b6bcc0463eae54ba1a7ad068d2890f3bca7e204",
+      "size": 55621,
+      "path": "/corpus/surah_6.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_6.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_6.json"
+    },
+    {
+      "name": "surah_7.json",
+      "number": 7,
+      "sha": "aa467a550d3c244f57011366baceddb196843ba5",
+      "size": 62455,
+      "path": "/corpus/surah_7.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_7.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_7.json"
+    },
+    {
+      "name": "surah_8.json",
+      "number": 8,
+      "sha": "fb642c644af6c9a74909556172576a8453883204",
+      "size": 23631,
+      "path": "/corpus/surah_8.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_8.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_8.json"
+    },
+    {
+      "name": "surah_9.json",
+      "number": 9,
+      "sha": "19e0e078bb48a704a9078cd7064414924dfc9bf4",
+      "size": 47226,
+      "path": "/corpus/surah_9.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_9.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_9.json"
+    },
+    {
+      "name": "surah_10.json",
+      "number": 10,
+      "sha": "1d46581c2d77341d6b28abc216198174d6a6a6e3",
+      "size": 33188,
+      "path": "/corpus/surah_10.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_10.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_10.json"
+    },
+    {
+      "name": "surah_11.json",
+      "number": 11,
+      "sha": "3f0fcd41467655fb67ecf4be2665bd55e5a85f0f",
+      "size": 34631,
+      "path": "/corpus/surah_11.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_11.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_11.json"
+    },
+    {
+      "name": "surah_12.json",
+      "number": 12,
+      "sha": "2c45ffc1b1bb4633fd39f5716589f0993f6ff160",
+      "size": 32250,
+      "path": "/corpus/surah_12.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_12.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_12.json"
+    },
+    {
+      "name": "surah_13.json",
+      "number": 13,
+      "sha": "8f927c009083572cb0c0e8d8fe8917cc5c86d192",
+      "size": 15592,
+      "path": "/corpus/surah_13.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_13.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_13.json"
+    },
+    {
+      "name": "surah_14.json",
+      "number": 14,
+      "sha": "0e001e876a1af1596d4a966a42a9e7598a23d831",
+      "size": 15674,
+      "path": "/corpus/surah_14.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_14.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_14.json"
+    },
+    {
+      "name": "surah_15.json",
+      "number": 15,
+      "sha": "fe6d392034cfa98a683be55f274599ecfb2c74e4",
+      "size": 13932,
+      "path": "/corpus/surah_15.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_15.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_15.json"
+    },
+    {
+      "name": "surah_16.json",
+      "number": 16,
+      "sha": "d7d004ae5068320c30a1ffc2230bc93791e5d507",
+      "size": 34631,
+      "path": "/corpus/surah_16.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_16.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_16.json"
+    },
+    {
+      "name": "surah_17.json",
+      "number": 17,
+      "sha": "db27a77e49d6a3784d94c5368e566f3fdb1db76d",
+      "size": 29239,
+      "path": "/corpus/surah_17.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_17.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_17.json"
+    },
+    {
+      "name": "surah_18.json",
+      "number": 18,
+      "sha": "b529210d48feaeb7accfd7d22993eed1614a8ba9",
+      "size": 29132,
+      "path": "/corpus/surah_18.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_18.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_18.json"
+    },
+    {
+      "name": "surah_19.json",
+      "number": 19,
+      "sha": "49b167d0db5bc94b9726ccc4dc204a7f774d057c",
+      "size": 18442,
+      "path": "/corpus/surah_19.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_19.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_19.json"
+    },
+    {
+      "name": "surah_20.json",
+      "number": 20,
+      "sha": "de2de9781b381099732a3040f21be7f2f006be83",
+      "size": 25196,
+      "path": "/corpus/surah_20.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_20.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_20.json"
+    },
+    {
+      "name": "surah_21.json",
+      "number": 21,
+      "sha": "f4437e41de629cc6661a1d42175a5875ca18687e",
+      "size": 23020,
+      "path": "/corpus/surah_21.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_21.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_21.json"
+    },
+    {
+      "name": "surah_22.json",
+      "number": 22,
+      "sha": "d16a0003acce5f112cac97554500dacf65e4b80d",
+      "size": 23299,
+      "path": "/corpus/surah_22.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_22.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_22.json"
+    },
+    {
+      "name": "surah_23.json",
+      "number": 23,
+      "sha": "2dd03c426afab2f8c766b7dbbc7cc7a4ae462b22",
+      "size": 20851,
+      "path": "/corpus/surah_23.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_23.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_23.json"
+    },
+    {
+      "name": "surah_24.json",
+      "number": 24,
+      "sha": "6f9355b796626db8397a1dd86b5920fe4fc97ba7",
+      "size": 24669,
+      "path": "/corpus/surah_24.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_24.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_24.json"
+    },
+    {
+      "name": "surah_25.json",
+      "number": 25,
+      "sha": "23bf671e48ff5bda7a4c4db8f40bae48507bddb7",
+      "size": 17438,
+      "path": "/corpus/surah_25.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_25.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_25.json"
+    },
+    {
+      "name": "surah_26.json",
+      "number": 26,
+      "sha": "b271acc86b6d927c3e4aa34e6cac6f5a3b4b7eef",
+      "size": 27883,
+      "path": "/corpus/surah_26.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_26.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_26.json"
+    },
+    {
+      "name": "surah_27.json",
+      "number": 27,
+      "sha": "deb9d9f7dcf5b6b04efaf4f92e4a632c44a67694",
+      "size": 21753,
+      "path": "/corpus/surah_27.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_27.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_27.json"
+    },
+    {
+      "name": "surah_28.json",
+      "number": 28,
+      "sha": "e2ab23f43b0646bc147dd87cbbdc80eb5d84723e",
+      "size": 26020,
+      "path": "/corpus/surah_28.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_28.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_28.json"
+    },
+    {
+      "name": "surah_29.json",
+      "number": 29,
+      "sha": "87ec94c1e172cebc4297d9bf57fab29888ee16c8",
+      "size": 19080,
+      "path": "/corpus/surah_29.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_29.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_29.json"
+    },
+    {
+      "name": "surah_30.json",
+      "number": 30,
+      "sha": "eb79824f3d812011e9b60237e2b2366fb3fe95bd",
+      "size": 15546,
+      "path": "/corpus/surah_30.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_30.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_30.json"
+    },
+    {
+      "name": "surah_31.json",
+      "number": 31,
+      "sha": "f1d18b4abb1e919fc3151b18509ecb1b0f6c72e5",
+      "size": 9848,
+      "path": "/corpus/surah_31.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_31.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_31.json"
+    },
+    {
+      "name": "surah_32.json",
+      "number": 32,
+      "sha": "35c8669131ebf438543ca48557c5544a00627788",
+      "size": 7215,
+      "path": "/corpus/surah_32.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_32.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_32.json"
+    },
+    {
+      "name": "surah_33.json",
+      "number": 33,
+      "sha": "220e8ddab8fbb1b957b8e5e2dd1dc22e471d0b47",
+      "size": 24843,
+      "path": "/corpus/surah_33.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_33.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_33.json"
+    },
+    {
+      "name": "surah_34.json",
+      "number": 34,
+      "sha": "2cde9ed5ff7c0034d3754cc94af234ace830a9ce",
+      "size": 15875,
+      "path": "/corpus/surah_34.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_34.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_34.json"
+    },
+    {
+      "name": "surah_35.json",
+      "number": 35,
+      "sha": "36a6f6af472eb9a6503463cf9241f5472a4d0402",
+      "size": 14336,
+      "path": "/corpus/surah_35.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_35.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_35.json"
+    },
+    {
+      "name": "surah_36.json",
+      "number": 36,
+      "sha": "254eccf5aca310b4f8ab945ab5e0832c3365ab3b",
+      "size": 14550,
+      "path": "/corpus/surah_36.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_36.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_36.json"
+    },
+    {
+      "name": "surah_37.json",
+      "number": 37,
+      "sha": "cf80c2eeec75a8033f7729248d40ae17d8db4977",
+      "size": 19869,
+      "path": "/corpus/surah_37.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_37.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_37.json"
+    },
+    {
+      "name": "surah_38.json",
+      "number": 38,
+      "sha": "6fdd4cc1d8b56d0e843e3aa48ffe4cd35edec891",
+      "size": 14589,
+      "path": "/corpus/surah_38.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_38.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_38.json"
+    },
+    {
+      "name": "surah_39.json",
+      "number": 39,
+      "sha": "c33e90e696306e9939a89faab70e6d4523cd84d2",
+      "size": 21752,
+      "path": "/corpus/surah_39.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_39.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_39.json"
+    },
+    {
+      "name": "surah_40.json",
+      "number": 40,
+      "sha": "f9dde57c442489259c7a3b7ecff98cd3d47443b2",
+      "size": 22549,
+      "path": "/corpus/surah_40.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_40.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_40.json"
+    },
+    {
+      "name": "surah_41.json",
+      "number": 41,
+      "sha": "997029bdc7a026c7ebc9378213765d365bc18346",
+      "size": 15068,
+      "path": "/corpus/surah_41.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_41.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_41.json"
+    },
+    {
+      "name": "surah_42.json",
+      "number": 42,
+      "sha": "6a138a7e484a0b20bcedcceaffe8555bad3e7e8f",
+      "size": 15607,
+      "path": "/corpus/surah_42.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_42.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_42.json"
+    },
+    {
+      "name": "surah_43.json",
+      "number": 43,
+      "sha": "463dcf79fbb404aa6d1e49f00fa0c28b3b9daf09",
+      "size": 16799,
+      "path": "/corpus/surah_43.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_43.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_43.json"
+    },
+    {
+      "name": "surah_44.json",
+      "number": 44,
+      "sha": "64835cc4d7434a07a3517beef0510e7d1b973a83",
+      "size": 7534,
+      "path": "/corpus/surah_44.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_44.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_44.json"
+    },
+    {
+      "name": "surah_45.json",
+      "number": 45,
+      "sha": "7f809ac6cd25ead405e6db0ad188a95ec920b73c",
+      "size": 9440,
+      "path": "/corpus/surah_45.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_45.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_45.json"
+    },
+    {
+      "name": "surah_46.json",
+      "number": 46,
+      "sha": "5296e5125e9b8201787558cce629f7408ad2b8ab",
+      "size": 11693,
+      "path": "/corpus/surah_46.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_46.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_46.json"
+    },
+    {
+      "name": "surah_47.json",
+      "number": 47,
+      "sha": "39b214d140b736f8bc190cfc335f1a59fe3b8511",
+      "size": 10866,
+      "path": "/corpus/surah_47.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_47.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_47.json"
+    },
+    {
+      "name": "surah_48.json",
+      "number": 48,
+      "sha": "29b5e8ccbdecdd40d39574e9ce84c0606d808c0e",
+      "size": 10942,
+      "path": "/corpus/surah_48.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_48.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_48.json"
+    },
+    {
+      "name": "surah_49.json",
+      "number": 49,
+      "sha": "6ca4f8fef7d414f33a59e116e2b62aedaa8b7439",
+      "size": 6810,
+      "path": "/corpus/surah_49.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_49.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_49.json"
+    },
+    {
+      "name": "surah_50.json",
+      "number": 50,
+      "sha": "93d9fb2b6e28ab9e8f948e7c78f0c1dd7e0a6952",
+      "size": 7417,
+      "path": "/corpus/surah_50.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_50.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_50.json"
+    },
+    {
+      "name": "surah_51.json",
+      "number": 51,
+      "sha": "d568bf867188cf3650da77b5c172d1e57cdca00b",
+      "size": 7951,
+      "path": "/corpus/surah_51.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_51.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_51.json"
+    },
+    {
+      "name": "surah_52.json",
+      "number": 52,
+      "sha": "2c794d4bc552a1599071b4f1d39d664bc94e8fa0",
+      "size": 6735,
+      "path": "/corpus/surah_52.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_52.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_52.json"
+    },
+    {
+      "name": "surah_53.json",
+      "number": 53,
+      "sha": "a66cf57e05cf3d7b026eaa6799efd46e5c5e9603",
+      "size": 7583,
+      "path": "/corpus/surah_53.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_53.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_53.json"
+    },
+    {
+      "name": "surah_54.json",
+      "number": 54,
+      "sha": "4e414fdde8429a5eb9150a617e15d60845c4d50f",
+      "size": 7495,
+      "path": "/corpus/surah_54.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_54.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_54.json"
+    },
+    {
+      "name": "surah_55.json",
+      "number": 55,
+      "sha": "3546e96e6a5d370c2676f8e91d197313aef49dc9",
+      "size": 8676,
+      "path": "/corpus/surah_55.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_55.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_55.json"
+    },
+    {
+      "name": "surah_56.json",
+      "number": 56,
+      "sha": "db9f10a7db8329fa661d4b7e55375974794cf858",
+      "size": 9392,
+      "path": "/corpus/surah_56.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_56.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_56.json"
+    },
+    {
+      "name": "surah_57.json",
+      "number": 57,
+      "sha": "fb5aed59b0292883bf860c19023f8ed4563f114f",
+      "size": 11019,
+      "path": "/corpus/surah_57.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_57.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_57.json"
+    },
+    {
+      "name": "surah_58.json",
+      "number": 58,
+      "sha": "b0181e829f775514d8fe81246533ac4de212e1fc",
+      "size": 8948,
+      "path": "/corpus/surah_58.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_58.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_58.json"
+    },
+    {
+      "name": "surah_59.json",
+      "number": 59,
+      "sha": "bd1b3909082c15ff1f4febdafc0ccd0c5bfd55ef",
+      "size": 8638,
+      "path": "/corpus/surah_59.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_59.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_59.json"
+    },
+    {
+      "name": "surah_60.json",
+      "number": 60,
+      "sha": "0988427fad659d40f8447ade90c83daa2c7e43ad",
+      "size": 6845,
+      "path": "/corpus/surah_60.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_60.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_60.json"
+    },
+    {
+      "name": "surah_61.json",
+      "number": 61,
+      "sha": "9b0a8b3fc6b5ff954314d477f59880432909f5a2",
+      "size": 4442,
+      "path": "/corpus/surah_61.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_61.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_61.json"
+    },
+    {
+      "name": "surah_62.json",
+      "number": 62,
+      "sha": "bce2b314c3ddcc66a4676d8d185937fc962b2cd6",
+      "size": 3599,
+      "path": "/corpus/surah_62.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_62.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_62.json"
+    },
+    {
+      "name": "surah_63.json",
+      "number": 63,
+      "sha": "5f37bb62b0db51b96a3fbd4b39c7e717dcd35190",
+      "size": 3821,
+      "path": "/corpus/surah_63.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_63.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_63.json"
+    },
+    {
+      "name": "surah_64.json",
+      "number": 64,
+      "sha": "9eb36c55cabc4fa0df1cb9dbee7f94b611fbb244",
+      "size": 5077,
+      "path": "/corpus/surah_64.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_64.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_64.json"
+    },
+    {
+      "name": "surah_65.json",
+      "number": 65,
+      "sha": "caf9c895e35ba51962cd2c28f22092e906cf5ccb",
+      "size": 5523,
+      "path": "/corpus/surah_65.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_65.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_65.json"
+    },
+    {
+      "name": "surah_66.json",
+      "number": 66,
+      "sha": "3e1c33d1909d1b45f89278576792dab8949945c4",
+      "size": 4987,
+      "path": "/corpus/surah_66.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_66.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_66.json"
+    },
+    {
+      "name": "surah_67.json",
+      "number": 67,
+      "sha": "22e6ddc99be2aaf6c5459f825fbb291a38e538c2",
+      "size": 6421,
+      "path": "/corpus/surah_67.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_67.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_67.json"
+    },
+    {
+      "name": "surah_68.json",
+      "number": 68,
+      "sha": "334a0462aa2aa15b2eeb5e7004452d9a9437893d",
+      "size": 6662,
+      "path": "/corpus/surah_68.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_68.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_68.json"
+    },
+    {
+      "name": "surah_69.json",
+      "number": 69,
+      "sha": "51b7097bdfc77105908fb525ded697ce65c4011f",
+      "size": 5999,
+      "path": "/corpus/surah_69.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_69.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_69.json"
+    },
+    {
+      "name": "surah_70.json",
+      "number": 70,
+      "sha": "26da358d89a626a155b72441c10ea5f55a1b0a6a",
+      "size": 5184,
+      "path": "/corpus/surah_70.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_70.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_70.json"
+    },
+    {
+      "name": "surah_71.json",
+      "number": 71,
+      "sha": "c76c4b67f85650962c1db5b714a38134afafa766",
+      "size": 4757,
+      "path": "/corpus/surah_71.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_71.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_71.json"
+    },
+    {
+      "name": "surah_72.json",
+      "number": 72,
+      "sha": "e9fc571c6544d5d9b9c23fccdddbf0089855165f",
+      "size": 5416,
+      "path": "/corpus/surah_72.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_72.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_72.json"
+    },
+    {
+      "name": "surah_73.json",
+      "number": 73,
+      "sha": "496076f06383412620dca4ba1515bff69a245a6c",
+      "size": 4186,
+      "path": "/corpus/surah_73.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_73.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_73.json"
+    },
+    {
+      "name": "surah_74.json",
+      "number": 74,
+      "sha": "bed2c8f435a6295a6f822750c7c45b2d7be62481",
+      "size": 5803,
+      "path": "/corpus/surah_74.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_74.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_74.json"
+    },
+    {
+      "name": "surah_75.json",
+      "number": 75,
+      "sha": "d61bd58755279f2e9a4bae030566ef6bf6557c4c",
+      "size": 4031,
+      "path": "/corpus/surah_75.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_75.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_75.json"
+    },
+    {
+      "name": "surah_76.json",
+      "number": 76,
+      "sha": "5944b8bd283c6afafbc73465a0c7a2933956be34",
+      "size": 5283,
+      "path": "/corpus/surah_76.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_76.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_76.json"
+    },
+    {
+      "name": "surah_77.json",
+      "number": 77,
+      "sha": "3ccf4904d19fc27a9060cb7063fbfd80f43f7b0f",
+      "size": 4805,
+      "path": "/corpus/surah_77.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_77.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_77.json"
+    },
+    {
+      "name": "surah_78.json",
+      "number": 78,
+      "sha": "daeb49eef4afa47455f5191bacf60b01899c7105",
+      "size": 4303,
+      "path": "/corpus/surah_78.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_78.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_78.json"
+    },
+    {
+      "name": "surah_79.json",
+      "number": 79,
+      "sha": "c331d60675f6b67aa98a5053f5324ab43f607e70",
+      "size": 4496,
+      "path": "/corpus/surah_79.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_79.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_79.json"
+    },
+    {
+      "name": "surah_80.json",
+      "number": 80,
+      "sha": "4fd4a730b38d436ae7a22e704fc0042777460ab2",
+      "size": 3573,
+      "path": "/corpus/surah_80.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_80.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_80.json"
+    },
+    {
+      "name": "surah_81.json",
+      "number": 81,
+      "sha": "1602b0d829e0a6a0f9736a29002807294d754ec5",
+      "size": 2730,
+      "path": "/corpus/surah_81.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_81.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_81.json"
+    },
+    {
+      "name": "surah_82.json",
+      "number": 82,
+      "sha": "6298b45cb52792fece909e886eaa4744187d9a4f",
+      "size": 2098,
+      "path": "/corpus/surah_82.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_82.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_82.json"
+    },
+    {
+      "name": "surah_83.json",
+      "number": 83,
+      "sha": "bfd50cb731153c4c5e1b96cf6666c05a7ed2d50e",
+      "size": 4103,
+      "path": "/corpus/surah_83.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_83.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_83.json"
+    },
+    {
+      "name": "surah_84.json",
+      "number": 84,
+      "sha": "44a8c70f3f03ab35809c5a347270ad2649982969",
+      "size": 2691,
+      "path": "/corpus/surah_84.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_84.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_84.json"
+    },
+    {
+      "name": "surah_85.json",
+      "number": 85,
+      "sha": "65e3b3d2b21950e65cf778fdb7589049228d49c8",
+      "size": 2659,
+      "path": "/corpus/surah_85.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_85.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_85.json"
+    },
+    {
+      "name": "surah_86.json",
+      "number": 86,
+      "sha": "83221057dd91276884c774fb27309924535c7d1b",
+      "size": 1736,
+      "path": "/corpus/surah_86.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_86.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_86.json"
+    },
+    {
+      "name": "surah_87.json",
+      "number": 87,
+      "sha": "94aab9204c3891ed95f9407756cfdedfca6d62e5",
+      "size": 1985,
+      "path": "/corpus/surah_87.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_87.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_87.json"
+    },
+    {
+      "name": "surah_88.json",
+      "number": 88,
+      "sha": "31c66e7385dd1e74c0f3c4fca30297bfd4c23a75",
+      "size": 2466,
+      "path": "/corpus/surah_88.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_88.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_88.json"
+    },
+    {
+      "name": "surah_89.json",
+      "number": 89,
+      "sha": "2ad30f9c85d1d76539a0730bae759eb8f5ea5f5d",
+      "size": 3350,
+      "path": "/corpus/surah_89.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_89.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_89.json"
+    },
+    {
+      "name": "surah_90.json",
+      "number": 90,
+      "sha": "d4f6b71e7349717179c9c721d7ba21a27ce62014",
+      "size": 2152,
+      "path": "/corpus/surah_90.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_90.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_90.json"
+    },
+    {
+      "name": "surah_91.json",
+      "number": 91,
+      "sha": "5ec8cd8882a14ffbdaf80c2e6abc3a4a9842b10c",
+      "size": 1654,
+      "path": "/corpus/surah_91.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_91.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_91.json"
+    },
+    {
+      "name": "surah_92.json",
+      "number": 92,
+      "sha": "f40818797afbcb2820df18d464d50b0fff7e443a",
+      "size": 2113,
+      "path": "/corpus/surah_92.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_92.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_92.json"
+    },
+    {
+      "name": "surah_93.json",
+      "number": 93,
+      "sha": "790d512b0a1628044b7b18dcec4a8e5b614676b8",
+      "size": 1267,
+      "path": "/corpus/surah_93.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_93.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_93.json"
+    },
+    {
+      "name": "surah_94.json",
+      "number": 94,
+      "sha": "23cdf9df16540fdc53cc2035f4b36c6f56c0c464",
+      "size": 951,
+      "path": "/corpus/surah_94.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_94.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_94.json"
+    },
+    {
+      "name": "surah_95.json",
+      "number": 95,
+      "sha": "2e5fc21e16223247dc9da0ce80da1faa79216e5f",
+      "size": 1143,
+      "path": "/corpus/surah_95.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_95.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_95.json"
+    },
+    {
+      "name": "surah_96.json",
+      "number": 96,
+      "sha": "2b52b4e24c151b528b6c0d2a108426e60d68f90d",
+      "size": 1958,
+      "path": "/corpus/surah_96.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_96.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_96.json"
+    },
+    {
+      "name": "surah_97.json",
+      "number": 97,
+      "sha": "afd122ef1f2bece9857f2d16ac39345162f6cf6d",
+      "size": 928,
+      "path": "/corpus/surah_97.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_97.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_97.json"
+    },
+    {
+      "name": "surah_98.json",
+      "number": 98,
+      "sha": "c9c7a7f43377c2c50c2648c467c42ca06aceda60",
+      "size": 2124,
+      "path": "/corpus/surah_98.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_98.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_98.json"
+    },
+    {
+      "name": "surah_99.json",
+      "number": 99,
+      "sha": "50e1d476d58b6c0b42ebc97b4781dba285d19b5d",
+      "size": 1162,
+      "path": "/corpus/surah_99.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_99.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_99.json"
+    },
+    {
+      "name": "surah_100.json",
+      "number": 100,
+      "sha": "249cfe9dfd5d288e7fc98911d886a36a5ebbc4be",
+      "size": 1277,
+      "path": "/corpus/surah_100.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_100.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_100.json"
+    },
+    {
+      "name": "surah_101.json",
+      "number": 101,
+      "sha": "cb5ce18dc8a2b9273130d5f4bb84fe44a4a34b85",
+      "size": 1209,
+      "path": "/corpus/surah_101.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_101.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_101.json"
+    },
+    {
+      "name": "surah_102.json",
+      "number": 102,
+      "sha": "445298223cf34d90d4669d70b69f1ca780401aca",
+      "size": 1032,
+      "path": "/corpus/surah_102.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_102.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_102.json"
+    },
+    {
+      "name": "surah_103.json",
+      "number": 103,
+      "sha": "3ff678b46c58ff25198e7d09efc11393157b30da",
+      "size": 690,
+      "path": "/corpus/surah_103.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_103.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_103.json"
+    },
+    {
+      "name": "surah_104.json",
+      "number": 104,
+      "sha": "bf21b61e08f2c27fb4a25a2aa8202adda45c7a49",
+      "size": 1101,
+      "path": "/corpus/surah_104.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_104.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_104.json"
+    },
+    {
+      "name": "surah_105.json",
+      "number": 105,
+      "sha": "c1fcd59e83cb3868552b09277818e238f7f53fe8",
+      "size": 852,
+      "path": "/corpus/surah_105.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_105.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_105.json"
+    },
+    {
+      "name": "surah_106.json",
+      "number": 106,
+      "sha": "091241e090185e427c476942b94e410713b348fc",
+      "size": 741,
+      "path": "/corpus/surah_106.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_106.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_106.json"
+    },
+    {
+      "name": "surah_107.json",
+      "number": 107,
+      "sha": "e03c63867ac5a9320aa9295e7a04efb4884c4d11",
+      "size": 954,
+      "path": "/corpus/surah_107.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_107.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_107.json"
+    },
+    {
+      "name": "surah_108.json",
+      "number": 108,
+      "sha": "744c2fc51e7d2be840f44061993ed9b387c7ff5f",
+      "size": 599,
+      "path": "/corpus/surah_108.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_108.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_108.json"
+    },
+    {
+      "name": "surah_109.json",
+      "number": 109,
+      "sha": "394d5d3a4e077382a057a57f0030e8b1e76c9261",
+      "size": 868,
+      "path": "/corpus/surah_109.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_109.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_109.json"
+    },
+    {
+      "name": "surah_110.json",
+      "number": 110,
+      "sha": "42dcd25a0cc82cc47c82065d127707a852d1b8a9",
+      "size": 737,
+      "path": "/corpus/surah_110.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_110.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_110.json"
+    },
+    {
+      "name": "surah_111.json",
+      "number": 111,
+      "sha": "26eff83925d1f1adab2ec526714d1294a5affad8",
+      "size": 788,
+      "path": "/corpus/surah_111.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_111.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_111.json"
+    },
+    {
+      "name": "surah_112.json",
+      "number": 112,
+      "sha": "a93f9def28e650b6cea1a0bab2d6cd8f2a7866f4",
+      "size": 636,
+      "path": "/corpus/surah_112.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_112.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_112.json"
+    },
+    {
+      "name": "surah_113.json",
+      "number": 113,
+      "sha": "bc9bdf6295b31f252a5ffbfc241a4549aee5ca2d",
+      "size": 766,
+      "path": "/corpus/surah_113.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_113.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_113.json"
+    },
+    {
+      "name": "surah_114.json",
+      "number": 114,
+      "sha": "7d77d3c48644a75dd548f6bfb2f02002164bf5a4",
+      "size": 795,
+      "path": "/corpus/surah_114.json",
+      "sourceUrl": "https://github.com/sarfraznawaz2005/quran-json/blob/master/surah/surah_114.json",
+      "downloadUrl": "https://raw.githubusercontent.com/sarfraznawaz2005/quran-json/master/surah/surah_114.json"
+    }
+  ]
+}

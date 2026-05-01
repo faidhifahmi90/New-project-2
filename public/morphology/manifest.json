@@ -1,0 +1,17 @@
+{
+  "schema": "quran-letter-graph.morphology.v1",
+  "source": "https://github.com/mustafa0x/quran-morphology",
+  "pulledAt": "2026-05-01T08:41:12.779Z",
+  "files": [
+    {
+      "name": "quran-morphology.txt",
+      "path": "/morphology/quran-morphology.txt",
+      "downloadUrl": "https://raw.githubusercontent.com/mustafa0x/quran-morphology/master/quran-morphology.txt"
+    },
+    {
+      "name": "morphology-terms-ar.json",
+      "path": "/morphology/morphology-terms-ar.json",
+      "downloadUrl": "https://raw.githubusercontent.com/mustafa0x/quran-morphology/master/morphology-terms-ar.json"
+    }
+  ]
+}
