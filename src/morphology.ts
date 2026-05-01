@@ -148,7 +148,12 @@ export function sourceAyahForVerse(surahs: QuranSurah[], surahNumber: number, ay
   return verse?.sourceIndex ?? ayah;
 }
 
-export function buildMorphologyGraph(words: WordUnit[], surahs: QuranSurah[], segments: MorphSegment[]): MorphologyGraph {
+export function buildMorphologyGraph(
+  words: WordUnit[],
+  surahs: QuranSurah[],
+  segments: MorphSegment[],
+  options?: { includeRelations?: boolean; includeSimilarity?: boolean },
+): MorphologyGraph {
   const segmentMap = new Map<string, MorphSegment[]>();
   segments.forEach((segment) => {
     const key = `${segment.surahNumber}:${segment.sourceAyah}:${segment.wordNumber}`;
@@ -230,9 +235,11 @@ export function buildMorphologyGraph(words: WordUnit[], surahs: QuranSurah[], se
     });
   });
 
+  const includeRelations = options?.includeRelations ?? true;
+  const includeSimilarity = options?.includeSimilarity ?? true;
   const cooccurrenceMap = new Map<string, RootCooccurrence>();
   const ayahVectors: AyahRootVector[] = [];
-  ayahRootMap.forEach((ayahWords, ayahKey) => {
+  if (includeRelations) ayahRootMap.forEach((ayahWords, ayahKey) => {
     const roots = [...new Set(ayahWords.flatMap((word) => word.roots))].sort((a, b) => a.localeCompare(b));
     const [surahNumber, ayah] = ayahKey.split(":").map(Number);
     const rootCounts: Record<string, number> = {};
@@ -288,7 +295,7 @@ export function buildMorphologyGraph(words: WordUnit[], surahs: QuranSurah[], se
   });
 
   const rootContextVectors = new Map<string, Record<string, number>>();
-  cooccurrenceMap.forEach((pair) => {
+  if (includeSimilarity) cooccurrenceMap.forEach((pair) => {
     const aVector = rootContextVectors.get(pair.rootA) ?? {};
     const bVector = rootContextVectors.get(pair.rootB) ?? {};
     aVector[pair.rootB] = (aVector[pair.rootB] ?? 0) + pair.weight;
@@ -301,7 +308,9 @@ export function buildMorphologyGraph(words: WordUnit[], surahs: QuranSurah[], se
     rootContextVectors.set(pair.rootB, bVector);
   });
 
-  const rankedRoots = [...rootMap.values()].sort((a, b) => b.wordCount - a.wordCount).slice(0, 420);
+  const rankedRoots = includeSimilarity
+    ? [...rootMap.values()].sort((a, b) => b.wordCount - a.wordCount).slice(0, 220)
+    : [];
   const rootSimilarities: RootSimilarity[] = [];
   for (let first = 0; first < rankedRoots.length; first += 1) {
     for (let second = first + 1; second < rankedRoots.length; second += 1) {

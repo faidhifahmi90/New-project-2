@@ -31,8 +31,12 @@ import {
 
 type View = "network" | "stream" | "words" | "roots" | "cooccur" | "similarity" | "morphology" | "nodes" | "edges" | "vectors" | "audit";
 type Scope = "surah" | "corpus";
+type AnalysisScope = "selected" | "loaded";
 type NetworkMode = "hubs" | "neighborhood";
 const STORAGE_KEY = "quran-letter-graph:surahs";
+const STORAGE_ENABLED_KEY = "quran-letter-graph:persist-source";
+const STORAGE_VERSION_KEY = "quran-letter-graph:storage-version";
+const STORAGE_VERSION = "light-startup-v1";
 const BUNDLED_MANIFEST = "/corpus/manifest.json";
 const MORPHOLOGY_TEXT_PATH = "/morphology/quran-morphology.txt";
 const atomKinds: AtomicKind[] = ["letter", "mark", "space", "punctuation", "symbol"];
@@ -683,6 +687,12 @@ function exportEvidence(value: unknown) {
 
 function loadInitialSurahs() {
   try {
+    if (window.localStorage.getItem(STORAGE_VERSION_KEY) !== STORAGE_VERSION) {
+      window.localStorage.removeItem(STORAGE_KEY);
+      window.localStorage.removeItem(STORAGE_ENABLED_KEY);
+      window.localStorage.setItem(STORAGE_VERSION_KEY, STORAGE_VERSION);
+    }
+    if (window.localStorage.getItem(STORAGE_ENABLED_KEY) !== "true") return uthmaniSeed;
     const stored = window.localStorage.getItem(STORAGE_KEY);
     if (!stored) return uthmaniSeed;
     return mergeSurahs(uthmaniSeed, parseSurahPayload(JSON.parse(stored)));
@@ -693,6 +703,8 @@ function loadInitialSurahs() {
 
 function resetStoredCorpus() {
   window.localStorage.removeItem(STORAGE_KEY);
+  window.localStorage.removeItem(STORAGE_ENABLED_KEY);
+  window.localStorage.setItem(STORAGE_VERSION_KEY, STORAGE_VERSION);
   return uthmaniSeed;
 }
 
@@ -700,6 +712,7 @@ export default function App() {
   const [surahs, setSurahs] = useState<QuranSurah[]>(loadInitialSurahs);
   const [selectedSurah, setSelectedSurah] = useState(1);
   const [scope, setScope] = useState<Scope>("surah");
+  const [analysisScope, setAnalysisScope] = useState<AnalysisScope>("selected");
   const [view, setView] = useState<View>("network");
   const [query, setQuery] = useState("");
   const [selectedNode, setSelectedNode] = useState("ل");
@@ -728,30 +741,35 @@ export default function App() {
 
   useEffect(() => {
     try {
+      if (window.localStorage.getItem(STORAGE_ENABLED_KEY) !== "true") return;
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(surahs));
     } catch {
       setError("Corpus is loaded, but it is too large for browser local storage. Export it or reload with the cloud button.");
     }
   }, [surahs]);
 
-  useEffect(() => {
-    void loadBundledCorpus({ silent: true });
-    void loadMorphology({ silent: true });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
   const activeSurahs = useMemo(
     () => (scope === "corpus" ? surahs : surahs.filter((surah) => surah.number === selectedSurah)),
     [scope, selectedSurah, surahs],
   );
+  const scopedSurahs = useMemo(
+    () => (analysisScope === "loaded" ? activeSurahs : surahs.filter((surah) => surah.number === selectedSurah)),
+    [activeSurahs, analysisScope, selectedSurah, surahs],
+  );
   const analysisSurahs = useMemo(
-    () => filterByAyahRange(activeSurahs, ayahFrom, ayahTo),
-    [activeSurahs, ayahFrom, ayahTo],
+    () => filterByAyahRange(scopedSurahs, ayahFrom, ayahTo),
+    [scopedSurahs, ayahFrom, ayahTo],
   );
   const graph = useMemo(() => ingestSurahs(analysisSurahs), [analysisSurahs]);
+  const needsMorphRelations = ["roots", "cooccur", "similarity", "morphology"].includes(view);
+  const needsMorphSimilarity = view === "similarity";
   const morphology = useMemo(
-    () => buildMorphologyGraph(graph.words, analysisSurahs, morphSegments),
-    [analysisSurahs, graph.words, morphSegments],
+    () =>
+      buildMorphologyGraph(graph.words, analysisSurahs, morphSegments, {
+        includeRelations: needsMorphRelations,
+        includeSimilarity: needsMorphSimilarity,
+      }),
+    [analysisSurahs, graph.words, morphSegments, needsMorphRelations, needsMorphSimilarity],
   );
   const visibleNodeIds = useMemo(
     () => new Set(graph.nodes.filter((node) => enabledKinds[node.kind]).map((node) => node.id)),
@@ -972,6 +990,7 @@ export default function App() {
       setSurahs((current) => mergeSurahs(current, parsedSurahs));
       setSelectedSurah(1);
       setScope("corpus");
+      setAnalysisScope("selected");
       setCorpusStatus(
         options?.silent
           ? `Auto-loaded ${parsedSurahs.length} bundled surahs.`
@@ -1038,6 +1057,14 @@ export default function App() {
           <select value={scope} onChange={(event) => setScope(event.target.value as Scope)}>
             <option value="surah">Selected surah</option>
             <option value="corpus">Loaded corpus</option>
+          </select>
+        </label>
+
+        <label className="field">
+          <span>Analyze</span>
+          <select value={analysisScope} onChange={(event) => setAnalysisScope(event.target.value as AnalysisScope)}>
+            <option value="selected">Selected surah only</option>
+            <option value="loaded">All loaded surahs</option>
           </select>
         </label>
 
@@ -1123,6 +1150,9 @@ export default function App() {
         {error ? <div className="error">{error}</div> : null}
         {corpusStatus ? <div className="status">{corpusStatus}</div> : null}
         {morphologyStatus ? <div className="status">{morphologyStatus}</div> : null}
+        {analysisScope === "loaded" ? (
+          <div className="status">Full loaded-corpus analysis is heavier. Switch Analyze back to selected surah for faster browsing.</div>
+        ) : null}
 
         <div className="metrics-grid">
           <Metric label="Surahs" value={graph.stats.surahs} />
@@ -1249,8 +1279,12 @@ export default function App() {
       <section className="workspace">
         <header className="topbar">
           <div className="surah-title" dir="rtl">
-            <h2>{scope === "corpus" ? "المصحف" : activeSurahs[0]?.name}</h2>
-            <span>{scope === "corpus" ? `${analysisSurahs.length} filtered surah` : activeSurahs[0]?.englishName}</span>
+            <h2>{analysisScope === "loaded" ? "المصحف" : analysisSurahs[0]?.name}</h2>
+            <span>
+              {analysisScope === "loaded"
+                ? `${analysisSurahs.length} surah in active analysis`
+                : `${surahs.length} loaded · analyzing ${analysisSurahs[0]?.englishName ?? "selected surah"}`}
+            </span>
           </div>
           <div className="search">
             <Search size={17} />
@@ -1741,7 +1775,7 @@ export default function App() {
             <div className="source-scroll">
               {analysisSurahs.map((surah) => (
                 <div className="surah-block" key={surah.number}>
-                  {scope === "corpus" ? <h3 dir="rtl">{surah.name}</h3> : null}
+                  {analysisScope === "loaded" ? <h3 dir="rtl">{surah.name}</h3> : null}
                   {surah.verses.map((verse) => (
                     <p key={`${surah.number}:${verse.ayah}`} dir="rtl">
                       <span>{verse.text}</span>

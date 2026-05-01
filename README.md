@@ -44,7 +44,7 @@ npm run pull:morphology
 
 This downloads `quran-morphology.txt` and `morphology-terms-ar.json` into `public/morphology/`. In the app, click the sparkle button to load morphology. The parser reads rows keyed by `surah:ayah:word:segment`, extracts segment POS, `ROOT`, `LEM`, and verb-form features, then joins them to preserved word records.
 
-When the bundled corpus or morphology files exist locally, the app also attempts to auto-load them on startup. The cloud and sparkle buttons remain available for manual reloads.
+Use the cloud and sparkle buttons to load the full corpus and morphology when you need them. Full-corpus auto-load is intentionally avoided because the derived graphs are expensive.
 
 ## Ingestion JSON
 
